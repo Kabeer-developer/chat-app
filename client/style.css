@@ -1,0 +1,45 @@
+body {
+  font-family: Arial;
+  background: #f2f2f2;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#chat {
+  width: 400px;
+  margin: auto;
+}
+
+#messages {
+  height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  background: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.message {
+  margin: 5px 0;
+}
+
+.system {
+  color: gray;
+  font-style: italic;
+}
+
+.input-area {
+  margin-top: 10px;
+}
+
+input {
+  padding: 8px;
+  width: 70%;
+}
+
+button {
+  padding: 8px 12px;
+}
